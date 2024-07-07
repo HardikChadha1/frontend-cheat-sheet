@@ -1,17 +1,15 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
     margin: 0;
     padding: 0;
+    background-color: white;
+    color: #333;
 }
 
 header {
     background-color: #007BFF;
-    color: #ffffff;
-    padding: 20px 0;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
@@ -22,37 +20,59 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
 }
 
 main {
-    padding: 40px;
-    text-align: center;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+h1, h2 {
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+p {
+    margin: 0 0 10px;
 }
 
 .logo {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 40px 0;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.logo img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+.logo-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo-item img {
+    max-width: 100px;
 }
 
 footer {
     background-color: #007BFF;
-    color: #ffffff;
+    color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

@@ -41,6 +41,7 @@ main {
     justify-content: center;
     gap: 30px;
     margin: 40px 0;
+    flex-wrap: wrap;
 }
 
 .logo img {
